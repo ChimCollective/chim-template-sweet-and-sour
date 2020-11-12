@@ -1,0 +1,51 @@
+/* HOME */
+.home-container{
+  padding: 7% 0;
+  background-color: orange;
+}
+
+.home-container .container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* ABOUT */
+.about-container{
+  padding: 5% 0;
+}
+
+.about-container .container{
+  max-width: 90%;
+}
+
+.about-des-div{
+  padding: 10% 10%;
+  background-color: orange;
+  text-align: center;
+}
+
+.about-des-p{
+  margin: 10% 0;
+}
+
+/* TOP DISH */
+.top-dish-container .container{
+  max-width: 90%;
+  text-align: center;
+}
+
+.top-dish-food1-div{
+  background-color: black;
+  color: white;
+  padding: 5% 0;
+}
+
+.top-dish-food2-div{
+  background-color: orange;
+  padding: 5% 0;
+}
+
+.top-dish-food3-div{
+  background-color: lightblue;
+  padding: 5% 0;
+}
