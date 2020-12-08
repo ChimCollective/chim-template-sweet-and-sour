@@ -1,51 +1,272 @@
-/* HOME */
-.home-container{
-  padding: 7% 0;
-  background-color: orange;
+/* INDEX.HTML */
+body {
+  color: #fff;
+  background-color: #000;
+  overflow-x: hidden;
 }
 
-.home-container .container{
-  padding-left: 10%;
-  padding-right: 10%;
+h1, h2, h3, h4, h5 {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.col, .row {
+  padding: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+/* NAVIGATION BAR */
+.navi-bar {
+  background-color: #000;
+  padding: 2.2%;
+}
+
+.navi-text {
+  color: #fff;
+}
+
+.navi-text:hover {
+  color: #fff;
+}
+
+/* HOME */
+.home-container {
+  text-align: center;
+  padding: 10% 0;
+}
+
+.home-background {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: calc(100vh);
+  transform-origin: center;
+  background-image: url("assets/3.jpg");
 }
 
 /* ABOUT */
-.about-container{
+#about .col-12 {
+  padding: 0;
+}
+
+#about .about-des-div {
+  background-color: #000;
+  text-align: center;
+  padding: 7% 30% 3.5%;
+}
+
+.about-des-p {
   padding: 5% 0;
 }
 
-.about-container .container{
-  max-width: 90%;
+.about-btn {
+  border: 0;
+  background-color: #fff;
+  color: #000;
 }
 
-.about-des-div{
-  padding: 10% 10%;
-  background-color: orange;
-  text-align: center;
-}
-
-.about-des-p{
-  margin: 10% 0;
+.about-pic-div {
+  height: calc(100vh);
+  overflow-y: hidden;
+  background-color: #000;
 }
 
 /* TOP DISH */
-.top-dish-container .container{
-  max-width: 90%;
+.top-dish-container {
+  background-color: #000;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.top-dish-head-div {
+  padding: 6% 0 2%;
+}
+
+.top-dish-head-div h2 {
+  margin-bottom: 2%;
+}
+
+.top-dish-card {
+  border-radius: 0;
+  border: 0;
+  margin: 3%;
+  background-color: #000;
+}
+
+.top-dish-card-body {
+  background-color: #191919;
+}
+
+/* CONTACT */
+.contact-container {
+  background-color: #000;
+}
+
+.contact-row {
+  height: calc(50vh);
+}
+
+.contact-pic-div {
+  height: calc(100vh);
+  overflow-y: hidden;
+  background-color: #000;
+}
+
+.contact-head-div, .contact-info-div {
+  margin: auto;
   text-align: center;
 }
 
-.top-dish-food1-div{
-  background-color: black;
-  color: white;
+/* MAP */
+#map {
+  height: 500px;
+  width: 100%;
+  filter: grayscale();
+}
+
+/* HOUR */
+.hour-container {
+  background-color: #000;
+  text-align: center;
+  padding: 9% 0 4%;
+}
+
+/* FOOTER */
+.footer-container {
+  background-color: #000;
+  text-align: center;
+  padding: 1% 0;
+}
+
+.hour-info-div {
   padding: 5% 0;
 }
 
-.top-dish-food2-div{
-  background-color: orange;
-  padding: 5% 0;
+#footer .footer-p {
+  margin: 4% auto;
 }
 
-.top-dish-food3-div{
-  background-color: lightblue;
-  padding: 5% 0;
+.footer-p .fab {
+  margin: 0 1%;
 }
+
+@media (max-width: 1200px) {
+
+  /* ABOUT */
+  .about-pic-div {
+    height: calc(70vh);
+  }
+
+  /* CONTACT */
+  .contact-pic-div {
+    height: calc(70vh);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  /* ABOUT */
+  .about-pic-div {
+    height: calc(30vh);
+  }
+
+  #about .about-des-div {
+    padding: 7% 15% 3.5%;
+  }
+
+  /* CONTACT */
+  .contact-row {
+    height: calc(20vh);
+  }
+
+  .contact-pic-div {
+    height: calc(30vh);
+  }
+}
+
+/* END INDEX.HTML*/
+/* ---------------------------------------------------------------------- */
+/* MENU.HTML */
+.menu-body {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.menu-symbol{
+  color: orange;
+}
+
+.menu-body .navi-bar{
+  color: #fff;
+}
+
+.menu-head-hr{
+  width: 10%;
+  height: 1px;
+  background-color: #000;
+  margin: 0 auto 3%;
+}
+
+.menu-head-div{
+  margin: 15% auto 7%;
+}
+
+.menu-card {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  margin: 4% auto;
+}
+
+.menu-card-body {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.menu-card-img {
+  width: 85%;
+  margin: auto;
+  padding: 3%;
+}
+
+.menu-title-hr{
+  width: 65%;
+  height: 1px;
+  background-color: #000;
+}
+
+.menu-price{
+  margin: 5% auto;
+}
+
+.top-menu-decor-img{
+  border: 6px orange dashed;
+}
+
+/* FOOTER */
+.menu-body .footer-container {
+  color: #fff;
+  margin-top: 10%;
+}
+
+/* END MENU.HTML*/
