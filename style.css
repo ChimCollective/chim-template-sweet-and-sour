@@ -3,6 +3,7 @@ body {
   color: #fff;
   background-color: #000;
   overflow-x: hidden;
+  font-family: museo;
 }
 
 h1, h2, h3, h4, h5 {
@@ -117,7 +118,7 @@ h2 {
 }
 
 .contact-pic-div {
-  height: calc(100vh);
+  height: calc(60vh);
   overflow-y: hidden;
   background-color: #000;
 }
@@ -129,7 +130,7 @@ h2 {
 
 /* MAP */
 #map {
-  height: 500px;
+  height: calc(60vh);
   width: 100%;
   filter: grayscale();
 }
@@ -236,7 +237,7 @@ h2 {
 .menu-card {
   background-color: rgba(0, 0, 0, 0);
   border: 0;
-  margin: 4% auto;
+  margin: 4% 0;
 }
 
 .menu-card-body {
